@@ -18,7 +18,7 @@ namespace Landmark2
             comboBox3.SelectedIndex = 0;
             try
             {
-                wb = new XLWorkbook(System.IO.Directory.GetCurrentDirectory() + "\\landmark2-data\\LANDMARK2.xlsx");
+                wb = new XLWorkbook(System.IO.Directory.GetCurrentDirectory() + "\\LANDMARK2.xlsx");
                 //wb = new XLWorkbook(Landmark2-data);
 
                 int worksheetHowMany = 1;
@@ -40,7 +40,7 @@ namespace Landmark2
             }
             catch
             {
-                MessageBox.Show("必要なファイルが見つかりませんでした。\n"+System.IO.Directory.GetCurrentDirectory() + "\\landmark2 - data\\LANDMARK2.xlsx", "エラー",MessageBoxButtons.OK,MessageBoxIcon.Error);
+                MessageBox.Show("必要なファイルが見つかりませんでした。\n"+System.IO.Directory.GetCurrentDirectory() + "\\LANDMARK2.xlsx", "エラー",MessageBoxButtons.OK,MessageBoxIcon.Error);
             }
             
 

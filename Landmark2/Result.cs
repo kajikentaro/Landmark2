@@ -36,7 +36,7 @@ namespace Landmark2
             Items class1Ecport = makeClass1Out_missedItems();
             try
             {
-                XLWorkbook wb = new XLWorkbook(System.IO.Directory.GetCurrentDirectory() + "\\landmark2-data\\LANDMARK2.xlsx");
+                XLWorkbook wb = new XLWorkbook(System.IO.Directory.GetCurrentDirectory() + "LANDMARK2.xlsx");
                 String newWorkSheetName = "ミス" + DateTime.Now.ToString("MMddHHmm");
                 wb.AddWorksheet(newWorkSheetName);
                 var worksheet = wb.Worksheet(newWorkSheetName);
