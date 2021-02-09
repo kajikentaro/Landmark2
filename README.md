@@ -1,4 +1,4 @@
-##タイピングで楽しく覚える単語帳
+## タイピングで楽しく覚える単語帳
 
 使い方：
 https://kajindowsxp.com/landmark2/
